@@ -1,0 +1,244 @@
+
+
+.home-container {
+    background-image: url("finalbackground.jpeg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 20px;
+    filter: brightness(100%) saturate(150%); 
+  }
+  
+  .bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("finalbackground.jpeg");
+    background-size: cover;
+    filter: brightness(60%) saturate(120%);
+    z-index: -1;
+  }
+  
+  .logo-image {
+    width: 5rem;
+    height: 3.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .navbar-links {
+     background-color: rgba(255, 255, 255, 0.6); 
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-radius: 30px;
+  }
+  
+  .navbar-links > .nav {
+    margin: 0;
+  }
+  
+  .transparent-button {
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+    color: white !important;
+    margin: 0 10px;
+  }
+  
+  .transparent-button:hover {
+    background-color: white !important;
+    color: rgb(3, 3, 14) !important;
+    border-radius: 30px;
+  }
+  
+  
+  
+  
+  
+  
+  .headpad{
+    padding-top: 50px;
+  }
+  
+  .footer {
+    background-image: url("finalbackground.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     /* padding: 30px;  */
+    color: #fff;
+   background-color: 'rgba(255, 255, 255, 0.2)' ;
+    border-radius: '25px ';
+    width: 100%
+  }
+  
+  .company-name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+  }
+  
+  .social-icons i {
+    margin-right: 5px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .company-name {
+      font-size: 20px;
+    }
+    
+   
+    
+    .footer-info h4 {
+      font-size: 16px;
+    }
+  }
+  
+  .team-member img {
+    border-radius: 10%;
+  }
+  
+  
+  .team-member img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .team-member h3,
+  .team-member p {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .team-member:hover img {
+    transform: scale(1.1);
+  }
+  
+  .team-member:hover h3,
+  .team-member:hover p {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.1s;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+  
+  .card {
+    transition: all 0.3s ease;
+  }
+  
+  
+  .curved-image-container {
+    position: relative;
+    
+  }
+  
+  .curved-image {
+    border-radius: 20px;
+    border: 5px solid #fff; /* Replace #fff with the desired color */
+  }
+  
+  .curved-image-container:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    border: 5px solid #000; /* Replace #000 with the desired color */
+    z-index: -1;
+    transform: scale(1.1);
+    z-index: 1;
+    transition: all 0.3s ease;
+  }
+  .curved-image:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .cardplay {
+    --bs-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, 0.2) !important; /* set the background color to black */
+    color: #fff !important; /* set the text color to white */
+  }
+  
+  .social-icons-container i {
+    font-size: 30px; /* Change this value to make the icons bigger or smaller */
+  }
+  
+
+
+
+
+
+  .logo-image {
+    width: 4rem;
+    height: 3rem;
+    margin-right: 0.1rem;
+  }
+  
+  .navbar-links {
+     background-color: rgba(255, 255, 255, 0.6); 
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-radius: 30px;
+  }
+  
+  .navbar-links > .nav {
+    margin: 0px;
+  }
+  
+  .transparent-button {
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+    color: white !important;
+    margin: 0 10px;
+  }
+  
+  .transparent-button:hover {
+    background-color: white !important;
+    color: rgb(3, 3, 14) !important;
+    border-radius: 30px;
+  }
+  
+  
+  
+  
+  
+  
